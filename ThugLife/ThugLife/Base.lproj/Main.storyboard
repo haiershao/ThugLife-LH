@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="16D32" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="ZGJ-av-7kK">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="ywl-Xa-c5B">
+            <objects>
+                <viewController id="ruu-kN-R7m" customClass="ViewController" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="REN-C8-8by"/>
+                        <viewControllerLayoutGuide type="bottom" id="FGF-9s-eEm"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="tlp-nK-YvA">
+                        <rect key="frame" x="0.0" y="64" width="375" height="603"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" tag="1000" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Mdb-kU-Nlo">
+                                <rect key="frame" x="105" y="145" width="164" height="113"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="113" id="CMf-GF-i6i"/>
+                                    <constraint firstAttribute="width" constant="164" id="cRV-Xx-ixD"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="选个皂片"/>
+                                <connections>
+                                    <action selector="selectAlbumAction:" destination="ruu-kN-R7m" eventType="touchUpInside" id="g32-sQ-fE0"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" tag="1001" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="pdu-2N-mbg">
+                                <rect key="frame" x="105.5" y="295" width="164" height="113"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="164" id="XH5-t9-MF9"/>
+                                    <constraint firstAttribute="height" constant="113" id="aKo-Xn-O0C"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <state key="normal" title="选个视频"/>
+                                <connections>
+                                    <action selector="selectAlbumAction:" destination="ruu-kN-R7m" eventType="touchUpInside" id="4YY-Gq-csi"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.71914543172856071" green="0.71914543172856071" blue="0.71914543172856071" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="pdu-2N-mbg" firstAttribute="centerX" secondItem="tlp-nK-YvA" secondAttribute="centerX" id="DMM-bT-2RK"/>
+                            <constraint firstItem="Mdb-kU-Nlo" firstAttribute="centerX" secondItem="tlp-nK-YvA" secondAttribute="centerX" id="Wzn-te-s9g"/>
+                            <constraint firstItem="Mdb-kU-Nlo" firstAttribute="centerY" secondItem="tlp-nK-YvA" secondAttribute="centerY" constant="-100" id="bms-Uk-BTL"/>
+                            <constraint firstItem="pdu-2N-mbg" firstAttribute="centerY" secondItem="tlp-nK-YvA" secondAttribute="centerY" constant="50" id="zuf-wT-tVT"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" id="Wjw-eX-UXV"/>
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO" prompted="NO"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="UBB-xg-MXZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="901.60000000000002" y="500.59970014992507"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="hpY-dz-wTg">
+            <objects>
+                <navigationController id="ZGJ-av-7kK" sceneMemberID="viewController">
+                    <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" prompted="NO"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="ivA-lm-5PT">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="ruu-kN-R7m" kind="relationship" relationship="rootViewController" id="Sw9-PC-VeU"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="LPo-Lt-t0U" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="68" y="501"/>
+        </scene>
+    </scenes>
+</document>

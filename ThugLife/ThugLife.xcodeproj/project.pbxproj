@@ -1,0 +1,666 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A03581461E811F2F00CF0432 /* AnimationAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A03581451E811F2F00CF0432 /* AnimationAddViewController.m */; };
+		A08061E81E94964E00BF2D71 /* XTPasterStageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A08061E51E94964E00BF2D71 /* XTPasterStageView.m */; };
+		A08061E91E94964E00BF2D71 /* XTPasterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A08061E71E94964E00BF2D71 /* XTPasterView.m */; };
+		A08061EC1E94965500BF2D71 /* UIImage+AddFunction.m in Sources */ = {isa = PBXBuildFile; fileRef = A08061EB1E94965500BF2D71 /* UIImage+AddFunction.m */; };
+		A0CFB8D11E763C5200404ACC /* UIViewController+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CFB8D01E763C5200404ACC /* UIViewController+Addition.m */; };
+		A0CFB8D61E763C5C00404ACC /* GHHPhotoManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CFB8D31E763C5C00404ACC /* GHHPhotoManager.m */; };
+		A0CFB8D71E763C5C00404ACC /* GHHPhotoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CFB8D51E763C5C00404ACC /* GHHPhotoViewController.m */; };
+		A0CFB8DB1E764E2500404ACC /* GHHImageItem.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CFB8DA1E764E2500404ACC /* GHHImageItem.m */; };
+		A0CFB8DE1E767CCB00404ACC /* GHHGridViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CFB8DD1E767CCB00404ACC /* GHHGridViewController.m */; };
+		A0CFB8E11E767E7800404ACC /* UIView+Addition.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CFB8E01E767E7800404ACC /* UIView+Addition.m */; };
+		A0CFB8E41E76990400404ACC /* GHHGridCell.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CFB8E31E76990400404ACC /* GHHGridCell.m */; };
+		A0CFB8E71E77C80500404ACC /* GHHPhotoEditingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CFB8E61E77C80500404ACC /* GHHPhotoEditingViewController.m */; };
+		A0CFB8EA1E7926E400404ACC /* GHHPhotoZoomViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0CFB8E91E7926E400404ACC /* GHHPhotoZoomViewController.m */; };
+		A0E413721E76302F00851E99 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E413711E76302F00851E99 /* main.m */; };
+		A0E413751E76302F00851E99 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E413741E76302F00851E99 /* AppDelegate.m */; };
+		A0E413781E76302F00851E99 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E413771E76302F00851E99 /* ViewController.m */; };
+		A0E4137B1E76302F00851E99 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E413791E76302F00851E99 /* Main.storyboard */; };
+		A0E4137D1E76302F00851E99 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A0E4137C1E76302F00851E99 /* Assets.xcassets */; };
+		A0E413801E76302F00851E99 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A0E4137E1E76302F00851E99 /* LaunchScreen.storyboard */; };
+		A0E4138B1E76302F00851E99 /* ThugLifeTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E4138A1E76302F00851E99 /* ThugLifeTests.m */; };
+		A0E413961E76302F00851E99 /* ThugLifeUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E413951E76302F00851E99 /* ThugLifeUITests.m */; };
+		A0E7387E1E8D0BE3000447E6 /* GHHAddTicketViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A0E7387D1E8D0BE2000447E6 /* GHHAddTicketViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A0E413871E76302F00851E99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0E413651E76302F00851E99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0E4136C1E76302F00851E99;
+			remoteInfo = ThugLife;
+		};
+		A0E413921E76302F00851E99 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A0E413651E76302F00851E99 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A0E4136C1E76302F00851E99;
+			remoteInfo = ThugLife;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A03581441E811F2F00CF0432 /* AnimationAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimationAddViewController.h; path = PhotoEdit/AnimationAddViewController.h; sourceTree = "<group>"; };
+		A03581451E811F2F00CF0432 /* AnimationAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimationAddViewController.m; path = PhotoEdit/AnimationAddViewController.m; sourceTree = "<group>"; };
+		A08061E41E94964E00BF2D71 /* XTPasterStageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTPasterStageView.h; sourceTree = "<group>"; };
+		A08061E51E94964E00BF2D71 /* XTPasterStageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTPasterStageView.m; sourceTree = "<group>"; };
+		A08061E61E94964E00BF2D71 /* XTPasterView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTPasterView.h; sourceTree = "<group>"; };
+		A08061E71E94964E00BF2D71 /* XTPasterView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XTPasterView.m; sourceTree = "<group>"; };
+		A08061EA1E94965500BF2D71 /* UIImage+AddFunction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+AddFunction.h"; sourceTree = "<group>"; };
+		A08061EB1E94965500BF2D71 /* UIImage+AddFunction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+AddFunction.m"; sourceTree = "<group>"; };
+		A0CFB8CF1E763C5200404ACC /* UIViewController+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIViewController+Addition.h"; sourceTree = "<group>"; };
+		A0CFB8D01E763C5200404ACC /* UIViewController+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+Addition.m"; sourceTree = "<group>"; };
+		A0CFB8D21E763C5C00404ACC /* GHHPhotoManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHPhotoManager.h; sourceTree = "<group>"; };
+		A0CFB8D31E763C5C00404ACC /* GHHPhotoManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHHPhotoManager.m; sourceTree = "<group>"; };
+		A0CFB8D41E763C5C00404ACC /* GHHPhotoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHPhotoViewController.h; sourceTree = "<group>"; };
+		A0CFB8D51E763C5C00404ACC /* GHHPhotoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHHPhotoViewController.m; sourceTree = "<group>"; };
+		A0CFB8D81E763C7500404ACC /* ThugLife.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ThugLife.pch; sourceTree = "<group>"; };
+		A0CFB8D91E764E2500404ACC /* GHHImageItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHImageItem.h; sourceTree = "<group>"; };
+		A0CFB8DA1E764E2500404ACC /* GHHImageItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHHImageItem.m; sourceTree = "<group>"; };
+		A0CFB8DC1E767CCB00404ACC /* GHHGridViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHGridViewController.h; sourceTree = "<group>"; };
+		A0CFB8DD1E767CCB00404ACC /* GHHGridViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHHGridViewController.m; sourceTree = "<group>"; };
+		A0CFB8DF1E767E7800404ACC /* UIView+Addition.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Addition.h"; sourceTree = "<group>"; };
+		A0CFB8E01E767E7800404ACC /* UIView+Addition.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Addition.m"; sourceTree = "<group>"; };
+		A0CFB8E21E76990400404ACC /* GHHGridCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHGridCell.h; sourceTree = "<group>"; };
+		A0CFB8E31E76990400404ACC /* GHHGridCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHHGridCell.m; sourceTree = "<group>"; };
+		A0CFB8E51E77C80500404ACC /* GHHPhotoEditingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHPhotoEditingViewController.h; sourceTree = "<group>"; };
+		A0CFB8E61E77C80500404ACC /* GHHPhotoEditingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHHPhotoEditingViewController.m; sourceTree = "<group>"; };
+		A0CFB8E81E7926E400404ACC /* GHHPhotoZoomViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GHHPhotoZoomViewController.h; sourceTree = "<group>"; };
+		A0CFB8E91E7926E400404ACC /* GHHPhotoZoomViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GHHPhotoZoomViewController.m; sourceTree = "<group>"; };
+		A0E4136D1E76302F00851E99 /* ThugLife.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ThugLife.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E413711E76302F00851E99 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A0E413731E76302F00851E99 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A0E413741E76302F00851E99 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A0E413761E76302F00851E99 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A0E413771E76302F00851E99 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A0E4137A1E76302F00851E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A0E4137C1E76302F00851E99 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A0E4137F1E76302F00851E99 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A0E413811E76302F00851E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E413861E76302F00851E99 /* ThugLifeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThugLifeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E4138A1E76302F00851E99 /* ThugLifeTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThugLifeTests.m; sourceTree = "<group>"; };
+		A0E4138C1E76302F00851E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E413911E76302F00851E99 /* ThugLifeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ThugLifeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A0E413951E76302F00851E99 /* ThugLifeUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ThugLifeUITests.m; sourceTree = "<group>"; };
+		A0E413971E76302F00851E99 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A0E7387C1E8D0BE2000447E6 /* GHHAddTicketViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = GHHAddTicketViewController.h; path = PhotoEdit/GHHAddTicketViewController.h; sourceTree = "<group>"; };
+		A0E7387D1E8D0BE2000447E6 /* GHHAddTicketViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHHAddTicketViewController.m; path = PhotoEdit/GHHAddTicketViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A0E4136A1E76302F00851E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E413831E76302F00851E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E4138E1E76302F00851E99 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A07DC4D51E8F9BC700F53E03 /* Paster */ = {
+			isa = PBXGroup;
+			children = (
+				A08061EA1E94965500BF2D71 /* UIImage+AddFunction.h */,
+				A08061EB1E94965500BF2D71 /* UIImage+AddFunction.m */,
+				A08061E41E94964E00BF2D71 /* XTPasterStageView.h */,
+				A08061E51E94964E00BF2D71 /* XTPasterStageView.m */,
+				A08061E61E94964E00BF2D71 /* XTPasterView.h */,
+				A08061E71E94964E00BF2D71 /* XTPasterView.m */,
+			);
+			name = Paster;
+			sourceTree = "<group>";
+		};
+		A0CFB8EB1E7926EA00404ACC /* PhotoEdit */ = {
+			isa = PBXGroup;
+			children = (
+				A0CFB8E51E77C80500404ACC /* GHHPhotoEditingViewController.h */,
+				A0CFB8E61E77C80500404ACC /* GHHPhotoEditingViewController.m */,
+				A0CFB8E81E7926E400404ACC /* GHHPhotoZoomViewController.h */,
+				A0CFB8E91E7926E400404ACC /* GHHPhotoZoomViewController.m */,
+				A03581441E811F2F00CF0432 /* AnimationAddViewController.h */,
+				A03581451E811F2F00CF0432 /* AnimationAddViewController.m */,
+				A0E7387C1E8D0BE2000447E6 /* GHHAddTicketViewController.h */,
+				A0E7387D1E8D0BE2000447E6 /* GHHAddTicketViewController.m */,
+			);
+			name = PhotoEdit;
+			sourceTree = "<group>";
+		};
+		A0CFB8EC1E7926FF00404ACC /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				A0CFB8CF1E763C5200404ACC /* UIViewController+Addition.h */,
+				A0CFB8D01E763C5200404ACC /* UIViewController+Addition.m */,
+				A0CFB8DF1E767E7800404ACC /* UIView+Addition.h */,
+				A0CFB8E01E767E7800404ACC /* UIView+Addition.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
+		A0CFB8EE1E79271A00404ACC /* MediaPicker */ = {
+			isa = PBXGroup;
+			children = (
+				A0CFB8D91E764E2500404ACC /* GHHImageItem.h */,
+				A0CFB8DA1E764E2500404ACC /* GHHImageItem.m */,
+				A0CFB8D41E763C5C00404ACC /* GHHPhotoViewController.h */,
+				A0CFB8D51E763C5C00404ACC /* GHHPhotoViewController.m */,
+				A0CFB8DC1E767CCB00404ACC /* GHHGridViewController.h */,
+				A0CFB8DD1E767CCB00404ACC /* GHHGridViewController.m */,
+				A0CFB8E21E76990400404ACC /* GHHGridCell.h */,
+				A0CFB8E31E76990400404ACC /* GHHGridCell.m */,
+			);
+			name = MediaPicker;
+			sourceTree = "<group>";
+		};
+		A0E413641E76302E00851E99 = {
+			isa = PBXGroup;
+			children = (
+				A0E4136F1E76302F00851E99 /* ThugLife */,
+				A0E413891E76302F00851E99 /* ThugLifeTests */,
+				A0E413941E76302F00851E99 /* ThugLifeUITests */,
+				A0E4136E1E76302F00851E99 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A0E4136E1E76302F00851E99 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A0E4136D1E76302F00851E99 /* ThugLife.app */,
+				A0E413861E76302F00851E99 /* ThugLifeTests.xctest */,
+				A0E413911E76302F00851E99 /* ThugLifeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A0E4136F1E76302F00851E99 /* ThugLife */ = {
+			isa = PBXGroup;
+			children = (
+				A07DC4D51E8F9BC700F53E03 /* Paster */,
+				A0CFB8EE1E79271A00404ACC /* MediaPicker */,
+				A0CFB8EC1E7926FF00404ACC /* Common */,
+				A0CFB8EB1E7926EA00404ACC /* PhotoEdit */,
+				A0E413731E76302F00851E99 /* AppDelegate.h */,
+				A0E413741E76302F00851E99 /* AppDelegate.m */,
+				A0E413761E76302F00851E99 /* ViewController.h */,
+				A0E413771E76302F00851E99 /* ViewController.m */,
+				A0CFB8D21E763C5C00404ACC /* GHHPhotoManager.h */,
+				A0CFB8D31E763C5C00404ACC /* GHHPhotoManager.m */,
+				A0E413791E76302F00851E99 /* Main.storyboard */,
+				A0E4137C1E76302F00851E99 /* Assets.xcassets */,
+				A0E4137E1E76302F00851E99 /* LaunchScreen.storyboard */,
+				A0E413811E76302F00851E99 /* Info.plist */,
+				A0E413701E76302F00851E99 /* Supporting Files */,
+			);
+			path = ThugLife;
+			sourceTree = "<group>";
+		};
+		A0E413701E76302F00851E99 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				A0E413711E76302F00851E99 /* main.m */,
+				A0CFB8D81E763C7500404ACC /* ThugLife.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		A0E413891E76302F00851E99 /* ThugLifeTests */ = {
+			isa = PBXGroup;
+			children = (
+				A0E4138A1E76302F00851E99 /* ThugLifeTests.m */,
+				A0E4138C1E76302F00851E99 /* Info.plist */,
+			);
+			path = ThugLifeTests;
+			sourceTree = "<group>";
+		};
+		A0E413941E76302F00851E99 /* ThugLifeUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A0E413951E76302F00851E99 /* ThugLifeUITests.m */,
+				A0E413971E76302F00851E99 /* Info.plist */,
+			);
+			path = ThugLifeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A0E4136C1E76302F00851E99 /* ThugLife */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E4139A1E76302F00851E99 /* Build configuration list for PBXNativeTarget "ThugLife" */;
+			buildPhases = (
+				A0E413691E76302F00851E99 /* Sources */,
+				A0E4136A1E76302F00851E99 /* Frameworks */,
+				A0E4136B1E76302F00851E99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ThugLife;
+			productName = ThugLife;
+			productReference = A0E4136D1E76302F00851E99 /* ThugLife.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A0E413851E76302F00851E99 /* ThugLifeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E4139D1E76302F00851E99 /* Build configuration list for PBXNativeTarget "ThugLifeTests" */;
+			buildPhases = (
+				A0E413821E76302F00851E99 /* Sources */,
+				A0E413831E76302F00851E99 /* Frameworks */,
+				A0E413841E76302F00851E99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0E413881E76302F00851E99 /* PBXTargetDependency */,
+			);
+			name = ThugLifeTests;
+			productName = ThugLifeTests;
+			productReference = A0E413861E76302F00851E99 /* ThugLifeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A0E413901E76302F00851E99 /* ThugLifeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A0E413A01E76302F00851E99 /* Build configuration list for PBXNativeTarget "ThugLifeUITests" */;
+			buildPhases = (
+				A0E4138D1E76302F00851E99 /* Sources */,
+				A0E4138E1E76302F00851E99 /* Frameworks */,
+				A0E4138F1E76302F00851E99 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0E413931E76302F00851E99 /* PBXTargetDependency */,
+			);
+			name = ThugLifeUITests;
+			productName = ThugLifeUITests;
+			productReference = A0E413911E76302F00851E99 /* ThugLifeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A0E413651E76302F00851E99 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "高瑞浩";
+				TargetAttributes = {
+					A0E4136C1E76302F00851E99 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = BZE7AZLL99;
+						ProvisioningStyle = Automatic;
+					};
+					A0E413851E76302F00851E99 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J95392EN9S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0E4136C1E76302F00851E99;
+					};
+					A0E413901E76302F00851E99 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = J95392EN9S;
+						ProvisioningStyle = Automatic;
+						TestTargetID = A0E4136C1E76302F00851E99;
+					};
+				};
+			};
+			buildConfigurationList = A0E413681E76302F00851E99 /* Build configuration list for PBXProject "ThugLife" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A0E413641E76302E00851E99;
+			productRefGroup = A0E4136E1E76302F00851E99 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A0E4136C1E76302F00851E99 /* ThugLife */,
+				A0E413851E76302F00851E99 /* ThugLifeTests */,
+				A0E413901E76302F00851E99 /* ThugLifeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A0E4136B1E76302F00851E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E413801E76302F00851E99 /* LaunchScreen.storyboard in Resources */,
+				A0E4137D1E76302F00851E99 /* Assets.xcassets in Resources */,
+				A0E4137B1E76302F00851E99 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E413841E76302F00851E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E4138F1E76302F00851E99 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A0E413691E76302F00851E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E413781E76302F00851E99 /* ViewController.m in Sources */,
+				A0CFB8D71E763C5C00404ACC /* GHHPhotoViewController.m in Sources */,
+				A0E413751E76302F00851E99 /* AppDelegate.m in Sources */,
+				A0CFB8D11E763C5200404ACC /* UIViewController+Addition.m in Sources */,
+				A0CFB8DB1E764E2500404ACC /* GHHImageItem.m in Sources */,
+				A0CFB8E41E76990400404ACC /* GHHGridCell.m in Sources */,
+				A03581461E811F2F00CF0432 /* AnimationAddViewController.m in Sources */,
+				A0CFB8E11E767E7800404ACC /* UIView+Addition.m in Sources */,
+				A0E413721E76302F00851E99 /* main.m in Sources */,
+				A0CFB8EA1E7926E400404ACC /* GHHPhotoZoomViewController.m in Sources */,
+				A0E7387E1E8D0BE3000447E6 /* GHHAddTicketViewController.m in Sources */,
+				A0CFB8DE1E767CCB00404ACC /* GHHGridViewController.m in Sources */,
+				A0CFB8D61E763C5C00404ACC /* GHHPhotoManager.m in Sources */,
+				A08061EC1E94965500BF2D71 /* UIImage+AddFunction.m in Sources */,
+				A0CFB8E71E77C80500404ACC /* GHHPhotoEditingViewController.m in Sources */,
+				A08061E81E94964E00BF2D71 /* XTPasterStageView.m in Sources */,
+				A08061E91E94964E00BF2D71 /* XTPasterView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E413821E76302F00851E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E4138B1E76302F00851E99 /* ThugLifeTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A0E4138D1E76302F00851E99 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E413961E76302F00851E99 /* ThugLifeUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A0E413881E76302F00851E99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0E4136C1E76302F00851E99 /* ThugLife */;
+			targetProxy = A0E413871E76302F00851E99 /* PBXContainerItemProxy */;
+		};
+		A0E413931E76302F00851E99 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A0E4136C1E76302F00851E99 /* ThugLife */;
+			targetProxy = A0E413921E76302F00851E99 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A0E413791E76302F00851E99 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0E4137A1E76302F00851E99 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A0E4137E1E76302F00851E99 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A0E4137F1E76302F00851E99 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A0E413981E76302F00851E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A0E413991E76302F00851E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A0E4139B1E76302F00851E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BZE7AZLL99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ThugLife/ThugLife.pch";
+				INFOPLIST_FILE = ThugLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaohaohao.ThugLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A0E4139C1E76302F00851E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = BZE7AZLL99;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ThugLife/ThugLife.pch";
+				INFOPLIST_FILE = ThugLife/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaohaohao.ThugLife;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A0E4139E1E76302F00851E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J95392EN9S;
+				INFOPLIST_FILE = ThugLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaohaohao.ThugLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThugLife.app/ThugLife";
+			};
+			name = Debug;
+		};
+		A0E4139F1E76302F00851E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = J95392EN9S;
+				INFOPLIST_FILE = ThugLifeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaohaohao.ThugLifeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ThugLife.app/ThugLife";
+			};
+			name = Release;
+		};
+		A0E413A11E76302F00851E99 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = J95392EN9S;
+				INFOPLIST_FILE = ThugLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaohaohao.ThugLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThugLife;
+			};
+			name = Debug;
+		};
+		A0E413A21E76302F00851E99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = J95392EN9S;
+				INFOPLIST_FILE = ThugLifeUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.gaohaohao.ThugLifeUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ThugLife;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A0E413681E76302F00851E99 /* Build configuration list for PBXProject "ThugLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E413981E76302F00851E99 /* Debug */,
+				A0E413991E76302F00851E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E4139A1E76302F00851E99 /* Build configuration list for PBXNativeTarget "ThugLife" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E4139B1E76302F00851E99 /* Debug */,
+				A0E4139C1E76302F00851E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E4139D1E76302F00851E99 /* Build configuration list for PBXNativeTarget "ThugLifeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E4139E1E76302F00851E99 /* Debug */,
+				A0E4139F1E76302F00851E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A0E413A01E76302F00851E99 /* Build configuration list for PBXNativeTarget "ThugLifeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A0E413A11E76302F00851E99 /* Debug */,
+				A0E413A21E76302F00851E99 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A0E413651E76302F00851E99 /* Project object */;
+}
