@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2EAF95771EA8B506007C93F9 /* 1.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 2EAF95761EA8B506007C93F9 /* 1.mp4 */; };
 		A03581461E811F2F00CF0432 /* AnimationAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A03581451E811F2F00CF0432 /* AnimationAddViewController.m */; };
 		A08061E81E94964E00BF2D71 /* XTPasterStageView.m in Sources */ = {isa = PBXBuildFile; fileRef = A08061E51E94964E00BF2D71 /* XTPasterStageView.m */; };
 		A08061E91E94964E00BF2D71 /* XTPasterView.m in Sources */ = {isa = PBXBuildFile; fileRef = A08061E71E94964E00BF2D71 /* XTPasterView.m */; };
@@ -49,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2EAF95761EA8B506007C93F9 /* 1.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = 1.mp4; sourceTree = "<group>"; };
 		A03581441E811F2F00CF0432 /* AnimationAddViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = AnimationAddViewController.h; path = PhotoEdit/AnimationAddViewController.h; sourceTree = "<group>"; };
 		A03581451E811F2F00CF0432 /* AnimationAddViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = AnimationAddViewController.m; path = PhotoEdit/AnimationAddViewController.m; sourceTree = "<group>"; };
 		A08061E41E94964E00BF2D71 /* XTPasterStageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XTPasterStageView.h; sourceTree = "<group>"; };
@@ -220,6 +222,7 @@
 		A0E413701E76302F00851E99 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2EAF95761EA8B506007C93F9 /* 1.mp4 */,
 				A0E413711E76302F00851E99 /* main.m */,
 				A0CFB8D81E763C7500404ACC /* ThugLife.pch */,
 			);
@@ -354,6 +357,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				A0E413801E76302F00851E99 /* LaunchScreen.storyboard in Resources */,
+				2EAF95771EA8B506007C93F9 /* 1.mp4 in Resources */,
 				A0E4137D1E76302F00851E99 /* Assets.xcassets in Resources */,
 				A0E4137B1E76302F00851E99 /* Main.storyboard in Resources */,
 			);

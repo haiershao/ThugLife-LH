@@ -42,7 +42,10 @@
     self.view.backgroundColor = [UIColor whiteColor];
     self.manager = [[GHHPhotoManager alloc] init];
     self.avasset = [self.manager requestVideoWithAsset:self.asset];
-    self.moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:self.avasset.URL];
+    NSString *videoURLStr = [[NSBundle mainBundle] pathForResource:@"1" ofType:@"mp4"];
+    NSURL *sampleURL = [NSURL fileURLWithPath:videoURLStr];
+    self.moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:sampleURL];
+//    self.moviePlayer = [[MPMoviePlayerController alloc] initWithContentURL:self.avasset.URL];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(moviePlayerThumbnailImageRequestDidFinish:) name:MPMoviePlayerThumbnailImageRequestDidFinishNotification object:nil];
     
 //    self.generator = [[AVAssetImageGenerator alloc] initWithAsset:self.avasset];
@@ -80,6 +83,7 @@
 }
 
 - (void)sliderValueChanged:(UISlider *)sender {
+    NSLog(@"sliderValueChanged  %f",sender.value);
     [self.moviePlayer requestThumbnailImagesAtTimes:@[@(sender.value)] timeOption:MPMovieTimeOptionExact];
     
 //    CMTime thumbTime = CMTimeMakeWithSeconds(sender.value,30);
@@ -101,6 +105,7 @@
 
 - (UIImage *)thumbnailImageAtTime:(NSTimeInterval)playbackTime
 {
+    NSLog(@"thumbnailImageAtTime");
     CGImageRef imageRef = [self.generator copyCGImageAtTime:CMTimeMakeWithSeconds(playbackTime, 600) actualTime:NULL error:nil];
     UIImage *image = [UIImage imageWithCGImage:imageRef];
     CGImageRelease(imageRef);

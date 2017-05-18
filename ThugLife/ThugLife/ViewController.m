@@ -20,7 +20,7 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.title = @"浩哥的Thug Life";
+    self.title = @"Thug Life";
     [[UIApplication sharedApplication] setStatusBarStyle:UIStatusBarStyleLightContent animated:YES];
     [[NSNotificationCenter defaultCenter] addObserver:self selector:@selector(didFinishPickeMediaNotification:) name:@"kDidFinishPickeMedia" object:nil];
 }
@@ -44,6 +44,7 @@
         weakSelf.selectedArray = [NSMutableArray arrayWithArray:array];
         dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(0.3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
             GHHPhotoEditingViewController *photoEditorVC = [[GHHPhotoEditingViewController alloc] initWithAsset:self.selectedArray.firstObject];
+            NSLog(@"self.selectedArray%@",self.selectedArray[0]);
             [self.navigationController pushViewController:photoEditorVC animated:YES];
             
         });
